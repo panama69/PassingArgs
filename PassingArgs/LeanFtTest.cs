@@ -37,6 +37,7 @@ namespace PassingArgs
         public void MyTest(string value)
         {
             //Simple comment to show link to defect number in Octane
+            //more comments
             //Forces a normal failure to pass based on if the seconds is odd or even
             //int s = Int32.Parse(Environment.GetEnvironmentVariable("BUILD_NBR"));
             int s = int.Parse(DateTime.Now.Second.ToString());
