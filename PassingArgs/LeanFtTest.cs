@@ -34,6 +34,9 @@ namespace PassingArgs
         [TestCase("pass5")]
         [TestCase("fail6")]
         [TestCase("pass7")]
+        [TestCase("fail8")]
+        [TestCase("fail9")]
+        [TestCase("pass10")]
         public void MyTest(string value)
         {
             //Simple comment to show link to defect number in Octane
